@@ -15,3 +15,5 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+#コミットしたくないファイルをあらかじめ指定できる設定ファイルがこのgitignore!投稿された画像はソースコードには関係ないからこれを記述する
+public/uploads/*
