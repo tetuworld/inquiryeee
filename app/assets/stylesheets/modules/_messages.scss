@@ -12,6 +12,7 @@ a {
   background-color: white;
   position: fixed;
   top: 0;
+  z-index: 100;
   .top-home {
     font-size: 30px;
     margin-top: 15px;
@@ -101,7 +102,7 @@ a {
 
 
 .main-indicate {
-  background-color: white;
+  background-color: rgb(254, 254, 253);
   height: 600px;
   width: 100%;
   h1 {
@@ -112,6 +113,16 @@ a {
     color: orange;
     padding-top: 20px;
   }
+  h1::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   p {
     font-size: 20px;
     color: orange;
@@ -121,7 +132,7 @@ a {
     margin-top: 60px;
   }
   img {
-    height: 400px;
+    height: 380px;
     width: 400px;
     float: right;
   }
@@ -139,4 +150,94 @@ a {
     margin-top: 50px;
   }
 
+}
+
+.main-feature {
+  // background-color: rgb(170, 223, 249);
+  height: 600px;
+  width: 100%;
+  h1 {
+    // position:relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    padding-top: 20px;
+    position: relative;
+  }
+  h1::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .main__features__list {
+    width: 100%;
+    height: 462px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    .main__features__list--first {
+      width: 306px;
+      height: 446px;
+      margin: 16px 5% 0 0;
+      img {
+        height: 306px;
+        width: 306px;
+      }
+      h3{
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 50px;
+        text-align: center;
+        // margin: 10px 0 0 50px;
+      }
+      p{
+        margin: 16px 0 0;
+        font-size: 17px;
+      }
+    }
+    .main__features__list--second {
+      width: 306px;
+      height: 446px;
+      margin: 16px 5% 0 0;
+      img{
+        height: 306px;
+        width: 306px;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 50px;
+        text-align: center;
+      }
+      p{
+        margin: 16px 0 0;
+        font-size: 17px;
+      }
+    }
+    .main__features__list--third {
+      width: 306px;
+      height: 446px;
+      margin: 16px 0 0 0;
+      img{
+        height: 306px;
+        width: 306px;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 50px;
+        text-align: center;
+      }
+      p{
+        margin: 16px 0 0 40px;
+        font-size: 17px;
+      }
+    }
+  }
 }
