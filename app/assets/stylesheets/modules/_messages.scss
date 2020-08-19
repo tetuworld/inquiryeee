@@ -102,7 +102,7 @@ a {
 
 
 .main-indicate {
-  background-color: rgb(254, 254, 253);
+  background-color: rgb(253, 250, 245);
   height: 600px;
   width: 100%;
   h1 {
@@ -115,7 +115,7 @@ a {
   }
   h1::after {
     content: "";
-    width: 80px;
+    width: 110px;
     height: 4px;
     background-color: yellow;
     position: absolute;
@@ -125,11 +125,12 @@ a {
   }
   p {
     font-size: 20px;
-    color: orange;
     margin-left: 20px;
+    text-align: center;
   }
   .subcontent1 {
     margin-top: 60px;
+    
   }
   img {
     height: 380px;
@@ -144,10 +145,12 @@ a {
       list-style: none;
       font-size: 28px;
       font-weight: bold;
+      text-align: center;
     }
   }
   .subcontent2 {
     margin-top: 50px;
+    text-align: center;
   }
 
 }
@@ -167,7 +170,7 @@ a {
   }
   h1::after {
     content: "";
-    width: 80px;
+    width: 110px;
     height: 4px;
     background-color: yellow;
     position: absolute;
