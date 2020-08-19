@@ -8,7 +8,10 @@ a {
 
 .header {
   height: 80px;
+  width: 100%;
   background-color: white;
+  position: fixed;
+  top: 0;
   .top-home {
     font-size: 30px;
     margin-top: 15px;
@@ -94,4 +97,46 @@ a {
   }
 
   
+}
+
+
+.main-indicate {
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  h1 {
+    position:relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    padding-top: 20px;
+  }
+  p {
+    font-size: 20px;
+    color: orange;
+    margin-left: 20px;
+  }
+  .subcontent1 {
+    margin-top: 60px;
+  }
+  img {
+    height: 400px;
+    width: 400px;
+    float: right;
+  }
+  .nayami-list {
+    margin-top: 45px;
+    margin-left: 50px;
+    li {
+      color: orange;
+      list-style: none;
+      font-size: 28px;
+      font-weight: bold;
+    }
+  }
+  .subcontent2 {
+    margin-top: 50px;
+  }
+
 }
