@@ -6,7 +6,7 @@
     %ul.top-navi__right
       - if user_signed_in?
         %li.top-navi__right--second<
-          = link_to user_path(current_user) do
+          = link_to "#" do
             = current_user.name
         %li.top-navi__right--third<
           = link_to destroy_user_session_path, method: :delete do
