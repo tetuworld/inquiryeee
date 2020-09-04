@@ -27,7 +27,7 @@
   %h1 のぞこう、生の声
   %p 他人から自分の目標を叶えていく、たった一つの戦略
   - if user_signed_in?
-    = link_to "#" ,class: "btn btn-border" do
+    = link_to boards_path ,class: "btn btn-border" do
       .btn-wrap
         tapで利用！
   -else
