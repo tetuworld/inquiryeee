@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   #ルートパスへのアクセスがあったら下記コントローラーのindexアクションを動かす
   root "messages#index"
-  resources :boards, only: [:index, :create]
+  resources :boards, only: [:index, :new, :create]
 end

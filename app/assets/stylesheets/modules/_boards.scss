@@ -1,0 +1,38 @@
+
+.footer__exhibition1 {
+  width: 200px;
+  background-color: orange;
+  text-align: center;
+  border-radius: 4%;
+  bottom: 32px;
+  right: 32px;
+  position: fixed;
+  padding: 15px;
+  .footer__exhibition__text {
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+}
+
+.footer__exhibition2 {
+  width: 200px;
+  background-color: orange;
+  text-align: center;
+  border-radius: 4%;
+  bottom: 32px;
+  right: 300px;
+  position: fixed;
+  padding: 15px;
+  .footer__exhibition__text {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+}
